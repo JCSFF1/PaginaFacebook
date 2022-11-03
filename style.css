@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240,242,245);
+}
+.central{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+}
+figure{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+    padding: 0 5% 5% 0;
+}
+h1{
+    color: rgb(34,119,242);
+    font-size: 75px;
+}
+.esquerdo{
+    display: flex;
+    flex-direction: column;
+}
+.inicial{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 600px;
+}
+.direito{
+    width: 512px;
+    height: 490px;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px lightgray solid;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+    height: 440px;
+}
+.secundaria{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px lightgray solid;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 475px;
+    height: 310px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    height: 235px;
+}
+input{
+    border-radius: 10px;
+    border: 2px lightgray solid;
+    margin:10px 0 15px 0;
+    width: 475px;
+    height: 70px;
+    padding: 10px;
+    font-size: 25px;
+}
+.secundaria button{
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    width: 475px;
+    height: 60px;
+    padding: 10px;
+    background-color: rgb(34,119,242);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.senha{
+    font-size: 18px;
+    color: rgb(34,119,242);
+    margin:10px 0 10px 0;
+}
+.conta{
+    border-radius: 10px;
+    border: none;
+    margin:8px 0 10px 0;
+    width: 220px;
+    height: 60px;
+    padding: 10px;
+    background-color: rgb(92,183,43);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+input::placeholder{
+    color: rgb(162,150,157);
+    font-size: 20px;
+}
+.final{
+    font-size: 20px;
+    padding: 3% 1% 1% 1%;
+    text-align: center;
+}
